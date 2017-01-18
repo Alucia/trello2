@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Welcome Board | Trello</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="trelloLogo.ico">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/hover.css">
+		<link rel="stylesheet" href="css/main.css">		
+	</head>
+	<body>
+		<header>
+			<img src="trello-logo-black.svg">
+		</header>
+		<section>
+			<br>
+			<div id="contentList" class="contentList scroll">
+				<div class="wrapperList " id="wrapperList">
+					<span id="lista" class="lista">Añadir una lista ...</span>
+					<form class="addCard hidden" id="addCard">
+						<input type="text" class="nameList" id="nameList">
+						<button type="submit" id="botonGuardar" class="botonGuardar" disabled="true">Guardar</button>
+						<i class="fa fa-times closeName" id="closeName" aria-hidden="true"></i>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!--JAVASCRIPT-->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script src="https://use.fontawesome.com/11e137e2d7.js"></script>
+	</body>
+</html>
